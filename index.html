@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <title>Tochi &mdash; Personal Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#">
+        <img src="./images/logos.png" alt="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About Me</a></li>
+          <li><a class="main-nav-link" href="#works">Projects</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- mobile navigation -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-menu" name="menu-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section">
+        <div class="container hero-box">
+          <div class="hero-text-box">
+            <h1 class="heading">
+              Hi, I’m Tochukwu <br />
+              <span>&mdash;Web Developer</span>
+            </h1>
+            <p class="hero-text">
+              I build scalable web applications that blend clean architecture
+              with seamless user experiences. Passionate about turning ideas
+              into products that make an impact.
+            </p>
+            <div class="cta">
+              <button class="cta-btn" type="button">Contact</button>
+              <button class="cta-btn cta-btn-secondary" type="button">
+                Project
+              </button>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="./images/me2.jpg" alt="tochi's picture" />
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <h2 class="subheading">About Me</h2>
+        <div class="container about-box">
+          <p class="about-text">
+            I’m Tochukwu, a backend developer with a strong foundation in law
+            and a passion for building robust, scalable digital systems. After
+            over a decade in legal practice, I transitioned into technology —
+            where I apply the same analytical precision and structured
+            problem-solving to software development.
+          </p>
+          <p class="about-text">
+            I work with Node.js, Express, and Firebase, to create clean,
+            efficient APIs and backend architectures that drive seamless user
+            experiences. My work focuses on performance, security, and
+            maintainability — ensuring every line of code serves a clear
+            purpose.
+          </p>
+          <p class="about-text">
+            Beyond development, I’m continuously expanding my expertise in
+            modern web technologies and system design, committed to crafting
+            solutions that combine functionality, reliability, and long-term
+            scalability.
+          </p>
+        </div>
+      </section>
+      <section id="works" class="works-section">
+        <h2 class="subheading">My Projects</h2>
+        <div class="projectcards">
+          <div class="projectcard">
+            <img src="./images/savora.png" alt="savora" />
+            <h3 class="projectcard-title">Restuarant website</h3>
+            <p class="projectcard-text">
+              A simple restaurant website built with HTML, CSS, and JavaScript.
+            </p>
+             <div class="projectcard-links">
+              <a href="https://savora-resturabnt.netlify.app/" class="projectcard-link" target="_blank">Live Demo</a>
+              <a href="https://github.com/Tochi-Nwagu/Savora-Restuarant" class="projectcard-link" target="_blank">Source Code</a>
+            </div>
+          </div>
+          <div class="projectcard">
+            <img src="./images/globetrots.png" alt="globetrots" />
+            <h3 class="projectcard-title">Travel Agency</h3>
+            <p class="projectcard-text">
+              A travel agency website showcasing various destinations and
+              booking options.
+            </p>
+            <div class="projectcard-links">
+              <a href="https://tochi-nwagu.github.io/Globetrots-travel-agency-website/" class="projectcard-link" target="_blank">Live Demo</a>
+              <a href="https://github.com/Tochi-Nwagu/Globetrots-travel-agency-website" class="projectcard-link" target="_blank">Source Code</a>
+            </div>
+          </div>
+          <div class="projectcard">
+            <img src="./images/github-users.png" alt="github-users" />
+            <h3 class="projectcard-title">Github User Finder</h3>
+            <p class="projectcard-text">
+              A web application that allows users to search for GitHub users.
+              This was my first project built as a group. it showcases the power of collaboration and version control.
+            </p>
+            <div class="projectcard-links">
+              <a href="https://react-github-user-searc.netlify.app/" class="projectcard-link" target="_blank">Live Demo</a>
+              <a href="https://github.com/Tochi-Nwagu/github-react-task" class="projectcard-link" target="_blank">Source Code</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2 class="subheading">Get In Touch</h2>
+        <form action="" method="post">
+          <div>
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ada Lovelace"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="a_lovelace@mail.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="tel">Phone Number</label>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="+234 123 456 7890"
+            />
+          </div>
+          <div>
+            <label for="message">Leave a Message</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Your message here..."
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Build by Tochukwu Nwagu</p>
+      <p>
+        Follow me on <ion-icon class="icons" name="logo-twitter"></ion-icon>|
+        <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

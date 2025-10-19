@@ -1,0 +1,253 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  background-color: #111111;
+  padding: 0 100px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #b0b0b0;
+  font-weight: 700;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #00adb5;
+}
+
+.btn-mobile-nav {
+  display: none;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 9999;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-mobile-menu {
+  font-size: 48px;
+  color: #b0b0b0;
+  font-weight: 900;
+}
+
+/* Hero Section */
+
+.hero-section,
+.about-section {
+  padding-top: 100px;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  color: #fafafa;
+  z-index: 0;
+  padding-bottom: 20px;
+}
+
+container {
+  max-width: 1200px;
+  margin: 0 auto; /* centers horizontally */
+  padding: 0 24px;
+}
+
+.hero-text-box,
+.hero-img {
+  flex: 1;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-img img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.hero-img {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-img::after {
+  content: '';
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 620px;
+  height: 620px;
+  background: #00adb5;
+  z-index: -1;
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #b0b0b0;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.about-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 24px;
+  line-height: 2;
+  font-weight: 500;
+  color: #b0b0b0;
+  padding: 20px 0;
+}
+
+.works-section {
+  background-color: #1c1c1c;
+  padding: 100px;
+}
+
+.projectcards {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.projectcard-links {
+  padding: 0 0 20px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projectcard-link:link,
+.projectcard-link:visited {
+  text-decoration: none;
+  color: #b0b0b0;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.projectcard-link:hover {
+  color: #00adb5;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+  letter-spacing: 0.5px;
+}
+
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00adb5;
+  background-color: rgba(255, 255, 255, 0.08);
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+  opacity: 0.8;
+}
+
+/* Optional submit button */
+button[type='submit'] {
+  margin-top: 1rem;
+  background-color: #00adb5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #06c4cd;
+  transform: translateY(-2px);
+}
+
+footer {
+  background-color: #111111;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+  padding: 20px 0;
+  color: #b0b0b0;
+}
+
+.icons {
+  font-size: 14px;
+  color: #b0b0b0;
+  padding: 0 10px;
+}

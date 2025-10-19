@@ -1,0 +1,104 @@
+/* topography */
+/* font-sizes 
+  
+Hero Heading (Name / Title)	clamp(2.5rem, 6vw, 4rem)	700–800	Big and bold for presence
+Subheading / Tagline	clamp(1rem, 2vw, 1.25rem)	400–500	Subtle contrast under hero text
+Section Headings (e.g. About, Projects)	1.75rem	600–700	Consistent hierarchy
+Body Text / Paragraph	1rem	400	Comfortable for reading
+Small Text / Labels	0.875rem	400–500	For meta info, captions, etc.
+Button Text	1rem	500–600	Legible and balanced
+Navigation Links	1rem	500	Clear and consistent
+*/
+/* Colors
+
+Background	#111111	Pure matte black
+Card / Section Background	#1C1C1C	Subtle elevation
+Primary Accent	#00ADB5	Teal accent (modern and calming)
+Secondary Accent	#EEEEEE	Soft white-gray
+Text (Primary)	#FAFAFA	Bright white
+Text (Secondary)	#B0B0B0	Cool gray
+Button Hover	#02C4CC	Brighter teal on hover
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fafafa;
+  text-align: center;
+}
+
+.heading span {
+  color: #b0b0b0;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cta-btn {
+  background-color: #00adb5;
+  color: #eeeeee;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.cta-btn-secondary {
+  background-color: #eeeeee;
+  color: #b0b0b0;
+}
+
+.cta-btn:hover {
+  background-color: #02c4cc;
+  transition: background-color 0.3s ease-in-out;
+  color: #eeeeee;
+}
+
+.subheading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projectcard img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.projectcard {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.projectcard-text,
+.projectcard-title {
+  color: #b0b0b0;
+  font-size: 20px;
+  padding: 0 15px 25px 15px;
+}
+.contact-section {
+  background-color: #1c1c1c;
+  padding: 50px 0;
+  text-align: center;
+}
