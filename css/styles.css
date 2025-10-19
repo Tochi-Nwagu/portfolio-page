@@ -56,7 +56,7 @@
 /* Hero Section */
 
 .hero-section,
-.about-section {
+.background-section {
   padding-top: 100px;
   margin: 0 auto;
   background-color: #1c1c1c;
@@ -65,11 +65,11 @@
   padding-bottom: 20px;
 }
 
-container {
+/* container {
   max-width: 1200px;
-  margin: 0 auto; /* centers horizontally */
+  margin: 0 auto; 
   padding: 0 24px;
-}
+} */
 
 .hero-text-box,
 .hero-img {
@@ -117,12 +117,12 @@ container {
   padding: 0 100px;
 }
 
-.about-box {
+.back-box {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.about-text {
+.back-text {
   font-size: 24px;
   line-height: 2;
   font-weight: 500;
