@@ -46,7 +46,6 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding-top: 80px;
 }
 
 .icon-mobile-menu {
@@ -65,7 +64,8 @@
   background-color: #1c1c1c;
   color: #fafafa;
   z-index: 0;
-  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 80px;
 }
 
 /* container {
