@@ -2,7 +2,7 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 10px 50px;
+    padding: 0 50px;
     background-color: rgba(0, 0, 0, 0.7);
   }
   .hero-img img {
@@ -37,7 +37,6 @@
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
-    padding: 10px;
   }
 
   .main-nav-list {
@@ -53,7 +52,6 @@
     width: 300px;
     height: 300px;
     align-content: center;
-    margin: 20px 50px;
     padding-left: 10px;
   }
 
