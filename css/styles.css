@@ -83,13 +83,13 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 70px;
 }
 .hero-img img {
   width: 600px;
   height: 600px;
   object-fit: cover;
   border-radius: 100%;
-  margin-top: 40px;
 }
 
 .hero-img {
