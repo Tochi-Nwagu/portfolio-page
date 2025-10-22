@@ -38,9 +38,6 @@
 
 .btn-mobile-nav {
   display: none;
-  position: fixed;
-  top: 16px;
-  right: 16px;
   z-index: 9999;
   background: none;
   border: none;
