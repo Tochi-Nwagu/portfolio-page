@@ -9,7 +9,6 @@
     width: 400px;
     height: 400px;
     align-content: center;
-    margin: 40px 150px;
   }
   .hero-img::after {
     display: none;
