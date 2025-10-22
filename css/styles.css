@@ -46,12 +46,14 @@
   background: none;
   border: none;
   cursor: pointer;
+  padding-top: 80px;
 }
 
 .icon-mobile-menu {
   font-size: 48px;
   color: #b0b0b0;
   font-weight: 900;
+  
 }
 
 /* Hero Section */
